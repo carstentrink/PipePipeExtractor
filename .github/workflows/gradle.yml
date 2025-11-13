@@ -21,6 +21,6 @@ jobs:
           git clone --depth=1 https://github.com/carstentrink/PipePipeExtractor.git
           git clone --depth=1 https://github.com/carstentrink/PipePipeClient.git
           cd PipePipeClient
-          #./gradlew assembleDebug lintDebug --stacktrace -DskipFormatKtlint
-         ./gradlew assembleRelease -DskipFormatKtlint
+#         ./gradlew assembleDebug lintDebug --stacktrace -DskipFormatKtlint
+          ./gradlew assembleRelease -DskipFormatKtlint
 
